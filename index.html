@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Argentina Programa</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+<link rel="stylesheet" href="./style.css">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</head>
+<body>
+<header>
+    <div class="row flog">
+        <div class="col-9 arg"><img src="https://argentinaprograma.inti.gob.ar/pluginfile.php/1/theme_moove/logo/1666227203/Dise%C3%B1o%20sin%20t%C3%ADtulo%20%2817%29.png" ></div>
+        <div class="col-3 mov"><img src="https://i0.wp.com/eltallerdehector.com/wp-content/uploads/2022/06/cd939-logo-instagram-png.png?resize=512%2C512&ssl=1" width="30" height="30">
+                           <img src="https://www.qualitasinformatica.com/wp-content/uploads/2022/04/logo-linkedin-icon-4096-344x344.png" width="30" height="30">
+                           <img src="data:image/png;base64,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" width="30" height="30" >
+                           <button type="button" class="btn btn-secondary">Secondary</button>
+        </div>
+        
+    </div>
+        <div class="row">
+        <div class="col img-head">
+            <img src="">
+        </div>
+    </div>
+</header>
+<section>
+<div class="container">
+    <div class="row padd20">
+    <div class="col col-md-6">
+        <img src="" alt="">
+    </div>
+    <div class="col col-12 col-md-6 infoNom">
+        <div><b>Nombre:</b></div>
+        <div><b>Perfil:</b></div> 
+        <div><b>Email:</b></div>
+        <div><b>Teléfono:</b></div>
+    </div>
+    </div>
+   <div class="row padd20">
+    <h3>Acerca de</h3>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         Fugit temporibus veritatis, accusamus quidem, 
+         labore nesciunt deserunt odit aperiam eos hic voluptatibus at voluptates sunt et sapiente.
+          Inventore dolorum autem temporibus?
+    </p>
+    <p>
+        Lorem ipsum dolor sit,
+        amet consectetur adipisicing elit. Facere voluptas velit laborum vel
+         veniam quia quae voluptates illo voluptatibus totam.
+    </p>
+   </div>
+</div>
+</section>
+<section>
+        <div class="container">
+            <h5>Educación</h5>
+        <div class="row">
+            <div class="col md-4">
+            <div>
+                <div class="icon-logo"></div>
+                <div>Secundario</div>
+                <div><p>Colegio san antonio</p>
+                </div>                
+            </div>
+        </div> 
+    <div class="container">
+        <div class="row">
+            <div class="col md-4">
+                <div>
+                    <div class="icon-logo"></div>
+                    <div>Terciario</div>
+                    <div><p>Tea</p>
+                    </div>                
+                </div>
+                </div>   
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col md-4">
+                <div>
+                    <div class="icon-logo"></div>
+                    <div class>Curso</div>
+                    <div><p>Argentina Programa</p>
+                    </div>                
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container">
+    <div class="row padd20">
+    <div class="col">
+        <h4>Habilidades</h4>
+        <label for="customRange1" class="form-label">Example range</label>
+        <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 60%" ></div>
+        </div>
+        <label for="customRange1" class="form-label">Example range</label>
+        <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 80%"></div>
+        </div>
+        <label for="customRange1" class="form-label">Example range</label>
+        <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 60%"></div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</section>
+<section>    
+    <div class="container">
+        <h2>Proyectos</h2>
+        <P>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, quos.
+        </P>
+        <div class="row">
+            <div class="col md-4">
+                <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                  <div>Nombre proyec</div>
+                  <div><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Totam qui tenetur rem? Blanditiis
+                     quas vero omnis ex quod cupiditate adipisci!</p></div>
+            </div>    
+                <div class="col md-4">
+                    <div class="card">
+                        <img src="" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                      <div>Nombre proyec</div>
+                      <div><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        Totam qui tenetur rem? Blanditiis
+                         quas vero omnis ex quod cupiditate adipisci!</p></div>
+                </div>               
+                <div class="col md-4">
+                    <div class="card">
+                        <img src="" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                      <div>Nombre proyec</div>
+                      <div><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        Totam qui tenetur rem? Blanditiis
+                         quas vero omnis ex quod cupiditate adipisci!</p></div>
+                </div>               
+        </div>
+        <div class="row">
+            <div class="col md-4">
+                <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                  <div>Nombre proyec</div>
+                  <div><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Totam qui tenetur rem? Blanditiis
+                     quas vero omnis ex quod cupiditate adipisci!</p></div>
+            </div>    
+                <div class="col md-4">
+                    <div class="card">
+                        <img src="" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                      <div>Nombre proyec</div>
+                      <div><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        Totam qui tenetur rem? Blanditiis
+                         quas vero omnis ex quod cupiditate adipisci!</p></div>
+                </div>               
+                <div class="col md-4">
+                    <div class="card">
+                        <img src="" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                      <div>Nombre proyec</div>
+                      <div><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        Totam qui tenetur rem? Blanditiis
+                         quas vero omnis ex quod cupiditate adipisci!</p></div>
+                </div>               
+        </div>
+    </div>
+    </section>
+</body>
+</html>
